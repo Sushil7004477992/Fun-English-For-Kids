@@ -1,0 +1,15 @@
+[
+  {"question":"Which keyword declares a block-scoped variable?","options":["var","let","func","const var"],"answer":1},
+  {"question":"typeof null returns?","options":["'object'","'null'","'undefined'","'value'"],"answer":0},
+  {"question":"Which method creates a new array from mapping?","options":["forEach","map","reduce","filter"],"answer":1},
+  {"question":"Promises represent what?","options":["Synchronous value","Future value","Generator","Callback"],"answer":1},
+  {"question":"Strict equality operator is?","options":["==","===","=","!=="],"answer":1},
+  {"question":"Which is a falsy value?","options":["'0'","
+0", "[]","{}"],"answer":1},
+  {"question":"How to create an arrow function?","options":["function => {}","()=>{}","-> {}","lambda(){}"],"answer":1},
+  {"question":"What does Array.prototype.filter return?","options":["Single value","Boolean","Array","Iterator"],"answer":2},
+  {"question":"Which object handles HTTP in browsers?","options":["XMLHttpRequest/fetch","http","Net","Socket"],"answer":0},
+  {"question":"What is hoisting?","options":["Runtime optimization","Moving declarations to top","Async execution","Tree shaking"],"answer":1}
+]
+
+

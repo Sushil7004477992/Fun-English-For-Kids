@@ -1,0 +1,14 @@
+[
+  {"question":"Which feature enables function name reuse with different parameters?","options":["Inheritance","Overloading","Overriding","Templating"],"answer":1},
+  {"question":"Which header defines std::vector?","options":["<array>","<list>","<vector>","<deque>"],"answer":2},
+  {"question":"Which cast is safest for downcasting with runtime check?","options":["static_cast","reinterpret_cast","const_cast","dynamic_cast"],"answer":3},
+  {"question":"RAII primarily manages what?","options":["Runtime polymorphism","Resource lifetime","Template instantiation","Thread priority"],"answer":1},
+  {"question":"What does 'explicit' on a constructor prevent?","options":["Copying","Implicit conversions","Inheritance","Destruction"],"answer":1},
+  {"question":"What is std::move used for?","options":["Copy an object","Enable move semantics","Delete an object","Allocate memory"],"answer":1},
+  {"question":"Which container maintains key order by default?","options":["std::unordered_map","std::map","std::vector","std::stack"],"answer":1},
+  {"question":"What does 'override' keyword check?","options":["Class visibility","Virtual override correctness","Template arguments","Namespace"],"answer":1},
+  {"question":"Which loop is range-based?","options":["for(size_t i...)","while(...)","for(auto &x : c)","do...while"],"answer":2},
+  {"question":"What does std::unique_ptr provide?","options":["Shared ownership","No ownership","Unique ownership","Weak ownership"],"answer":2}
+]
+
+

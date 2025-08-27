@@ -1,0 +1,14 @@
+[
+  {"question":"Which property sets text color?","options":["background","font-color","color","text-color"],"answer":2},
+  {"question":"Which selector targets element by id?","options":[".id","#id","id{}","*[id]"],"answer":1},
+  {"question":"How to make a flex container?","options":["display: block","display: grid","display: flex","flex: container"],"answer":2},
+  {"question":"Which unit is relative to root font-size?","options":["em","rem","px","vh"],"answer":1},
+  {"question":"Which property sets space inside border?","options":["margin","gap","padding","space"],"answer":2},
+  {"question":"How to select all <p> inside .card?","options":[".card + p",".card > p",".card p","p.card"],"answer":2},
+  {"question":"Which property changes element stacking order?","options":["position","z-index","order","stack"],"answer":1},
+  {"question":"Which creates CSS variable?","options":["var(--x)","--x: value","$x: value","@x: value"],"answer":1},
+  {"question":"Which media query targets dark mode?","options":["(prefers-color: dark)","(prefers-color-scheme: dark)","(theme: dark)","(color-scheme: dark)"],"answer":1},
+  {"question":"Which property controls layout in grid?","options":["grid-template","grid-area","grid","grid-template-columns"],"answer":3}
+]
+
+

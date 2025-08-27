@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun English Learning for Kids</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>🌟 Fun English Learning for Kids 🌟</h1>
+      <p>Learn English with fun topics! Choose a topic and start learning with pictures and words.</p>
+    </header>
+
+    <main class="container">
+      <section id="setup-section" class="card">
+        <h2>Choose Your Learning Topic</h2>
+        <div class="grid topics">
+          <label class="topic-card">
+            <input type="radio" name="topic" value="alphabets" />
+            <div class="topic-content">
+              <div class="topic-icon">🔤</div>
+              <span>Alphabets A-Z</span>
+            </div>
+          </label>
+          <label class="topic-card">
+            <input type="radio" name="topic" value="weekdays" />
+            <div class="topic-content">
+              <div class="topic-icon">📅</div>
+              <span>Days of the Week</span>
+            </div>
+          </label>
+          <label class="topic-card">
+            <input type="radio" name="topic" value="months" />
+            <div class="topic-content">
+              <div class="topic-icon">📆</div>
+              <span>Months of the Year</span>
+            </div>
+          </label>
+          <label class="topic-card">
+            <input type="radio" name="topic" value="animals" />
+            <div class="topic-content">
+              <div class="topic-icon">🐾</div>
+              <span>Animals</span>
+            </div>
+          </label>
+          <label class="topic-card">
+            <input type="radio" name="topic" value="colors" />
+            <div class="topic-content">
+              <div class="topic-icon">🎨</div>
+              <span>Colors</span>
+            </div>
+          </label>
+          <label class="topic-card">
+            <input type="radio" name="topic" value="numbers" />
+            <div class="topic-content">
+              <div class="topic-icon">🔢</div>
+              <span>Numbers 1-20</span>
+            </div>
+          </label>
+          <label class="topic-card">
+            <input type="radio" name="topic" value="shapes" />
+            <div class="topic-content">
+              <div class="topic-icon">📐</div>
+              <span>Shapes</span>
+            </div>
+          </label>
+          <label class="topic-card">
+            <input type="radio" name="topic" value="fruits" />
+            <div class="topic-content">
+              <div class="topic-icon">🍎</div>
+              <span>Fruits</span>
+            </div>
+          </label>
+        </div>
+
+        <div class="controls">
+          <button id="start-btn" class="primary">Start Learning! 🚀</button>
+        </div>
+      </section>
+
+      <section id="learning-section" class="card hidden">
+        <div class="learning-header">
+          <div id="topic-label" class="pill"></div>
+          <div id="progress" class="muted"></div>
+        </div>
+        
+        <div id="content-box" class="content-box">
+          <div id="visual-content" class="visual-content"></div>
+          <div id="text-content" class="text-content">
+            <h2 id="main-text"></h2>
+            <p id="description-text"></p>
+          </div>
+        </div>
+
+        <div class="controls spread">
+          <button id="prev-btn">⬅️ Previous</button>
+          <button id="next-btn" class="primary">Next ➡️</button>
+          <button id="finish-btn" class="accent">Finish Learning</button>
+        </div>
+      </section>
+
+      <section id="completion-section" class="card hidden">
+        <h2>🎉 Great Job! 🎉</h2>
+        <p id="completion-message"></p>
+        <div class="controls">
+          <button id="restart-btn" class="secondary">Learn Another Topic</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container muted small">
+      <p>💡 Tip: Click on pictures to hear the words! Practice makes perfect! 🌟</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+

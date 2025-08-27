@@ -1,0 +1,14 @@
+[
+  {"question":"Which tag defines the largest heading?","options":["<h6>","<h1>","<head>","<header>"],"answer":1},
+  {"question":"Which attribute provides alternate text for images?","options":["title","alt","aria","label"],"answer":1},
+  {"question":"Which tag is used to create a link?","options":["<link>","<a>","<url>","<href>"],"answer":1},
+  {"question":"Correct doctype for HTML5?","options":["<!DOCTYPE HTML5>","<!DOCTYPE html>","<doctype html>","<!HTML>"],"answer":1},
+  {"question":"Which input type for email validation?","options":["text","email","mail","username"],"answer":1},
+  {"question":"Which tag embeds JavaScript?","options":["<style>","<script>","<code>","<js>"],"answer":1},
+  {"question":"Semantic container for navigation links?","options":["<div>","<menu>","<nav>","<section>"],"answer":2},
+  {"question":"Which element groups table rows?","options":["<tbody>","<td>","<tfoot>","<tr>"],"answer":0},
+  {"question":"Which tag adds an image?","options":["<img>","<image>","<picture>","<figure>"],"answer":0},
+  {"question":"Attribute to open link in new tab?","options":["ref","target='_blank'","_new","window='new'"],"answer":1}
+]
+
+

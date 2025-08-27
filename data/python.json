@@ -1,0 +1,14 @@
+[
+  {"question":"Which data type is immutable?","options":["list","dict","set","tuple"],"answer":3},
+  {"question":"How to create a list comprehension?","options":["(x for x in a)","[x for x in a]","{x for x in a}","list(x for x in a)"],"answer":1},
+  {"question":"What is PEP 8?","options":["Package manager","Style guide","Debugger","Interpreter"],"answer":1},
+  {"question":"Which keyword defines a generator?","options":["yield","return","gen","async"],"answer":0},
+  {"question":"Which method adds an item to list end?","options":["append","add","push","insert"],"answer":0},
+  {"question":"How to open file for reading (text)?","options":["open(p,'w')","open(p,'r')","open(p,'rb')","open(p) with no mode"],"answer":1},
+  {"question":"What's the output type of range(5)?","options":["list","iterator","range object","tuple"],"answer":2},
+  {"question":"Which keyword handles exceptions?","options":["catch","except","handle","rescue"],"answer":1},
+  {"question":"How to create virtual environment (3.11+ stdlib)?","options":["pip venv","python -m venv env","virtualenv env","conda create"],"answer":1},
+  {"question":"What does 'is' compare?","options":["Value equality","Identity","Type","Hash"],"answer":1}
+]
+
+

@@ -1,0 +1,14 @@
+[
+  {"question":"Which keyword is used to declare a constant in C?","options":["const","final","static","immutable"],"answer":0},
+  {"question":"Size of int on most 32-bit C compilers?","options":["2 bytes","4 bytes","8 bytes","Depends on OS only"],"answer":1},
+  {"question":"Function to print formatted output?","options":["scan","print","printf","cout"],"answer":2},
+  {"question":"Which header defines malloc?","options":["stdio.h","stdlib.h","string.h","malloc.h"],"answer":1},
+  {"question":"What does NULL represent?","options":["0 as char","Address 0","Random address","Empty string"],"answer":1},
+  {"question":"Which operator has highest precedence?","options":["*","++ (postfix)","+","=="],"answer":1},
+  {"question":"What is the correct way to declare a pointer to int?","options":["int p;","int *p;","pointer int p;","int &p;"],"answer":1},
+  {"question":"Which loop guarantees at least one execution?","options":["for","while","do-while","foreach"],"answer":2},
+  {"question":"Which specifier prints an integer with printf?","options":["%d","%f","%s","%c"],"answer":0},
+  {"question":"What does sizeof return?","options":["Runtime memory used","Compile-time size in bytes","KB used","Pointer size only"],"answer":1}
+]
+
+

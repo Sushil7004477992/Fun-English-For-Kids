@@ -1,0 +1,14 @@
+[
+  {"question":"Which keyword prevents inheritance?","options":["static","final","const","sealed"],"answer":1},
+  {"question":"Default value of an uninitialized instance int?","options":["0","null","undefined","garbage"],"answer":0},
+  {"question":"Which collection does not allow duplicates?","options":["List","Set","Queue","Map"],"answer":1},
+  {"question":"Which method starts a thread?","options":["run()","start()","exec()","launch()"],"answer":1},
+  {"question":"Which keyword handles exceptions?","options":["catch","except","rescue","handle"],"answer":0},
+  {"question":"Which stream class is for bytes?","options":["Reader","Writer","InputStream","BufferedReader"],"answer":2},
+  {"question":"What is JVM?","options":["Compiler","Virtual Machine","Library","Debugger"],"answer":1},
+  {"question":"Which feature allows same method name different params?","options":["Overloading","Overriding","Generics","Reflection"],"answer":0},
+  {"question":"Which package contains ArrayList?","options":["java.util","java.io","java.lang","java.time"],"answer":0},
+  {"question":"Which access modifier is most restrictive?","options":["public","protected","private","package-private"],"answer":2}
+]
+
+
