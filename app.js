@@ -81,6 +81,13 @@ class EnglishLearningApp {
                     { visual: "🦒", text: "Giraffe", description: "A tall animal with a long neck" },
                     { visual: "🐧", text: "Penguin", description: "A bird that cannot fly" },
                     { visual: "🐸", text: "Frog", description: "A green jumping animal" }
+                    { visual: "🐒", text: "Monkey", description: "A playful animal" },
+                    { visual: "🐎", text: "Horse", description: "A strong runnig animal" },
+                    { visual: "🐄", text: "Cow", description: "A gentle farm animal" },
+                    { visual: "🦌", text: "Deer", description: "A gentle animal" },
+                    { visual: "🐐", text: "Goat", description: "A farm animal" },
+                    { visual: "🐑", text: "sheep", description: "A farm animal" },
+                    { visual: "🐫", text: "Camel", description: "A desert animal" },
                 ]
             },
             colors: {
