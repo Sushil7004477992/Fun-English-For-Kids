@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <header class="container" >
+    <h1>⭐Fun English Learning for kids ⭐</h1>
+    <p>learn english with fun topics! choose a topic and start learning with oictures words.</p>
+   </header>
+   <main class="container">
+    <section id="setup-section" class="card">
+        <h2>choose your learn topic</h2>
+        <div class="grid topics">
+            <label class="topic-card">
+                <input type="radio" name="topic" value="alphabets" />
+                <div class="topic-content">
+                    <div class="topic-icons">🔤</div>
+                    <span>Alphabets A-Z</span>
+                </div>
+            </label>
+            <label class="topic-card">
+                <input type="radio" name="topic" value="weekdays">
+                <div class="topic-content">
+                <div class="topic-icon">📅</div>
+                <span>Day of Week</span>
+            </div>
+            </label>
+            <label class="topic-card">
+                <input type="radio" name="topic" value="months" />
+                <div class="topic-content">
+                    <div class="topic-icon">📆</div>
+                    <span>Months of the Year</span>
+                </div>
+            </label>
+            <label class="topic-card">
+                <input type="radio" name="topic" value="animals">
+                <div class="topic-content">
+                    <div class="topic-icon">🐶</div>
+                    <span>Animals</span>
+                </div>
+            </label>
+           
+            <label class="topic-card">
+                <input type="radio" name="topic" value="numbers">
+                <div class="topic-content">
+                    <div class="topic-icon">🔢</div>
+                    <span>Numbers 1-20</span>
+                </div>
+           </label>
+           <label class="topic-card">
+            <input type="radio" name="topic" value="shapes">
+            <div class="topic-content">
+                <div class="topic-icons">📐</div>
+                <span>Shapes</span>
+            </div>
+           </label>
+           <label class="topic-card">
+            <input type="radio" name="topic" value="fruits">
+            <div class="topic-content">
+                <div class="topic-icon">🍎</div>
+                <span>Fruits</span>
+            </div>
+           </label>
+           <label class="topic-card">
+            <input type="radio" name="topic" value="colors">
+            <div class="topic-content">
+                <div class="topic-icon">🎨</div>
+                <span>Colors</span>
+            </div>
+           </label>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="primary">Start learning! 🚀</button>
+        </div>
+    </section>
+    <section id="learning-section" class="card hidden">
+        <div id="learning-header">
+            <div id="topic-label" class="pill"></div>
+            <div id="progress" class="muted"></div>
+        </div>
+        <div id="content-box" class="content-box">
+            <div id="visual-content" class="visual-content"></div>
+            <div id="text-content" class="text-content">
+            <h2 id="main-text"></h2>
+            <p id="description-text"></p>
+            </div>
+        </div>
+        <div class="controls spread">
+            <button id="prev-btn">⬅previous</button>
+            <button id="next-btn" class="primary-text">⏭</button>
+            <button id="finish-btn" class="accent">Finish learning</button>
+        </div>
+    </section>
+   </main>
+   <footer class="container mute small">
+    <p>tip:Click on picture to hear the works! practice makes perfect!</p>
+   </footer>
+   <script src="apps.js"></script>
+</body>
+</html>

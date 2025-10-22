@@ -1,0 +1,269 @@
+:root {
+  --bg: #f0f8ff;
+  --card: #ffffff;
+  --text: #2c3e50;
+  --muted: #7f8c8d;
+  --primary: #3498db;
+  --accent: #e74c3c;
+  --danger: #e74c3c;
+  --border: #ecf0f1;
+  --success: #27ae60;
+  --warning: #f39c12
+}
+
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--text)
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px
+}
+
+.card {
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, .1);
+  margin-bottom: 20px
+}
+
+.grid {
+  display: grid;
+  gap: 16px
+}
+
+.topics {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 24px
+}
+
+.controls.spread {
+  justify-content: space-between
+}
+
+.inline {
+  display: flex;
+  gap: 8px;
+  align-items: center
+}
+
+.hidden {
+  display: none
+}
+
+.primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 15px 24px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease
+}
+
+.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4)
+}
+
+.secondary {
+  background: transparent;
+  color: var(--text);
+  border: 2px solid var(--border);
+  padding: 15px 24px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease
+}
+
+.secondary:hover {
+  background: var(--bg);
+  transform: translateY(-2px)
+}
+
+.accent {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 15px 24px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease
+}
+
+.accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4)
+}
+
+.muted {
+  color: var(--muted)
+}
+
+.small {
+  font-size: .9rem
+}
+
+.pill {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  border: 1px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: bold
+}
+
+.learning-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  min-height: 400px;
+  justify-content: center
+}
+
+.visual-content {
+  font-size: 120px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease
+}
+
+.visual-content:hover {
+  transform: scale(1.1)
+}
+
+.text-content h2 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: var(--primary);
+  font-weight: bold
+}
+
+.text-content p {
+  font-size: 24px;
+  color: var(--muted);
+  margin: 0
+}
+
+#completion-message {
+  font-size: 20px;
+  color: var(--success);
+  font-weight: bold;
+  text-align: center
+}
+
+header h1 {
+  margin-bottom: 8px;
+  color: var(--primary);
+  text-align: center;
+  font-size: 36px
+}
+
+/* Topic Cards */
+.topic-card {
+  display: block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: 2px solid var(--border);
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2)
+}
+
+.topic-card input {
+  display: none
+}
+
+.topic-card input:checked+.topic-content {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px
+}
+
+.topic-content {
+  color: white;
+  font-weight: bold;
+  font-size: 18px
+}
+
+.topic-icon {
+  font-size: 48px;
+  margin-bottom: 10px
+}
+
+/* Progress indicator */
+#progress {
+  font-size: 18px;
+  font-weight: bold
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .topics {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+  }
+
+  .content-box {
+    min-height: 300px
+  }
+
+  .visual-content {
+    font-size: 80px
+  }
+
+  .text-content h2 {
+    font-size: 32px
+  }
+
+  .text-content p {
+    font-size: 18px
+  }
+
+  header h1 {
+    font-size: 28px
+  }
+}
